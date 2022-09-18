@@ -1,7 +1,7 @@
 import 'dart:async';
 
+import 'package:common/ui/webview/webview_screen.dart';
 import 'package:flutter/material.dart';
-import 'package:webview/ui/webview/webview_screen.dart';
 
 Future commonMain() async {
   WidgetsFlutterBinding.ensureInitialized();
