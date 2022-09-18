@@ -26,7 +26,6 @@ class PermissionScreenState extends State<PermissionScreen> {
               ElevatedButton(
                 child: const Text("Request Single Permission"),
                 onPressed: () async {
-                  Permission.values
                   if (await Permission.camera.request().isGranted) {
                     // Either the permission was already granted before or the user just granted it.
                     debugPrint("Location Permission is granted");
